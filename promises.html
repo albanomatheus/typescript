@@ -1,0 +1,16 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Promises</title>
+</head>
+<body>
+	
+</body>
+<script> 
+		const res = fetch("https://api.postmon.com.br/v1/cep/38408720");
+
+		res
+			.then(data => data.json())
+			.then(data => console.log(data))	
+</script>
+</html>
